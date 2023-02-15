@@ -1,0 +1,21 @@
+body{
+	font-family: Arial;
+}
+h1{
+	text-align: center;
+}
+.box{
+	display: flex;
+}
+.col1{
+	flex-grow: 3;
+}
+.col2{
+	flex-grow: 2;
+}
+h2{
+	text-align: center;
+}
+.point:{
+
+}

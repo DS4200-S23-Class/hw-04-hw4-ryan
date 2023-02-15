@@ -3,12 +3,65 @@
 
 <head>
     <meta charset=utf-8/>
+    <title>hw-04</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
-
-
+    <script src="script.js"></script>
+    <h1>hw-04: Event Handling</h1>
+    <div class="box">
+        <!-- Insert two columns here -->
+        <div class="col1">
+            <svg id="container" height="200" width="500">
+                <polyline points="0,0 0,200 200,200" style="fill:none;stroke:black;stroke-width:3"/>
+                <circle id="point1" class="point" cx="20" cy="160" r="5" stroke="black" stroke-width="1" fill="blue"/>
+                <circle id="point2" class="point" cx="40" cy="120" r="5" stroke="black" stroke-width="1" fill="blue"/>
+                <circle id="point3" class="point" cx="120" cy="160" r="5" stroke="black" stroke-width="1" fill="blue"/>
+                <circle id="point4" class="point" cx="180" cy="20" r="5" stroke="black" stroke-width="1" fill="blue"/>
+            </svg>
+        </div>
+        <div class="col2">
+            <div>
+                <label for="x-values">Select the point's x-coordinate: </label>
+                <select name="x-values" id="x-value">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div>
+                <label for="y-values">Select the point's y-coordinate: </label>
+                <select name="y-values" id="y-value">
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+                   <option value="9">9</option>
+                </select>
+            </div>
+            <button type="button" id="button1">Add Point</button>
+        </div>
+    </div>
+    <h2>Acknowledgements</h2>
+    <div>
+        <ul>
+            <li>Flexbox guide on css-tricks.com</li>
+            <li>HTML on w3schools.com</li>
+            <li>JavaScript on w3schools.com</li>
+        </ul>
+    </div>
 </body>
 
 </html>
