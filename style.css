@@ -16,6 +16,10 @@ h1{
 h2{
 	text-align: center;
 }
-.point:{
-
+.orange{
+	fill: orange;
+}
+.bordered{
+	stroke: red;
+	stroke-width: 3;
 }
